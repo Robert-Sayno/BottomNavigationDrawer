@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ssenono.bottomapp2.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_courses"
+        android:name="com.ssenono.bottomapp2.ui.Courses.CoursesFragment"
+        android:label="@string/title_courses"
+        tools:layout="@layout/fragment_courses" />
+
+    <fragment
+        android:id="@+id/nav_classes"
+        android:name="com.ssenono.bottomapp2.ui.Classes.ClassesFragment"
+        android:label="Classes"
+        tools:layout="@layout/fragment_classes" />
+    <fragment
+        android:id="@+id/nav_quiz"
+        android:name="com.ssenono.bottomapp2.QuizFragment"
+        android:label="Quiz"
+        tools:layout="@layout/fragment_quiz" />
+</navigation>

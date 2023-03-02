@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BottomApp2</string>
+    <string name="title_home">Home</string>
+    <string name="title_courses">Courses</string>
+    <string name="title_classes">Classes</string>
+    <string name="title_quiz">Quiz</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Welcome</string>
+</resources>
